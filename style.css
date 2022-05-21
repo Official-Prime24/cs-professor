@@ -1,0 +1,64 @@
+fieldset {
+  background-color: darkkhaki;
+} 
+body {
+  color: blue;
+}
+{
+  box-sizing: border-box;
+}
+
+.column{
+  float: left;
+  padding:20px;
+  height: 500px;
+  background-color: white;
+}
+
+.left {
+  width:25%;
+}
+
+.right {
+  width: 75%;
+  
+}
+
+.row:after {
+  content: ""
+  display: table;
+  clear: both;
+}
+
+ h1, h2 {
+  line-height: 0cm;
+}
+
+a {
+  color: red;
+}
+
+
+}
+p {
+
+  margin-top: 0cm;
+  margin-bottom: 1cm;
+}
+/* 
+
+You don't need to add any styles to complete this project.
+
+  If you want to add styles, you can do so in this file.
+  
+*/
+
+
+
+/* These styles are for the disclaimer -- leave them alone */
+
+.disclaimer {
+  margin: 1em;
+  padding: 4px;
+  border: 1px solid hotpink;
+}
